@@ -1,0 +1,39 @@
+# Conceitos básicos Git/Github
+
+Este texto tem como finalidade explicar em poucas palvras alguns conceitos básicos para o uso do GIT e do Github
+
+
+
+*<u>GIT</u>* é um sistema de controle de versionamento distribuído de código, gratuito e aberto, onde é possível analisar todas as versões do código, seus autores e as modificações efetuadas.
+
+*<u>Github</u>* é a plataforma que hospeda os repositórios onde são alocadas as diversas versões de código.
+
+
+
+- Objetos do GIT:
+
+  <u>*Blobs (bolha)*</u>: são os arquivos individuais que compõe o projeto. Os blobs contem os metadados, o tipo de objeto, tamanho do arquivo, seu conteúdo e uma chave SHA1, que contem uma criptografia única para cada versão do arquivo
+
+  <u>*Trees(arvores)*:</u> armazena as "blobs", aponta sempre para uma blob, 						contem os metadados e o nome dos arquivos, pode apontar para uma outra tree que também conterá "blobs" dentro de sua estrutura
+
+  <u>*Commit(consolidação)*:</u> consolida as alterações feitas nas "blobs" e nas "trees", aponta para uma "tree", aponta também para um "parente" (versão anterior do código), contém os dados do autor, uma mensagem criada pelo autor indicando qual a finalidade das alterações do código, qual data e horário o "commit" foi feito e contém seu próprio SHA1
+
+  <u>*SHA1*:</u>  sistema que cria a criptografia de um arquivo/código/commit
+
+
+
+- Os arquivos/códigos apresentação diversos status e é importante entendê-los para um "commit" correto:
+
+  Existem dois tipos de arquivos, os TRACKEDs que são aqueles que o GIT já conhece o os UNTRACKEDs que GIT desconhece.
+
+  Aqueles desconhecidos pelo GIT não é necessário mencionar, pois não vão aparecer no GIT Bash para "comittar" ou "empurrar" ao repositório.
+
+  Já os arquivos "TRACKED" podem apresentar os seguintes status:
+
+  <u>*Unmodified*</u> são os arquivos que não sofreram alteração
+
+  *<u>Modified</u>* são os arquivos que sofreram alteração
+
+  *<u>Staged</u>* são os arquivos que sofreram alteração e estão em fase de preparação para o "commit" e o "push"
+
+  ​

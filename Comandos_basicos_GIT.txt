@@ -1,0 +1,41 @@
+# Comandos básicos do GIT (Gitbash)
+
+O GIT é uma ferramenta para versionamento de arquivos/códigos, onde é possível ter acesso a todas as alterações feitas nos arquivos/códigos utilizando repositórios de versões, que fica hospedado no Github.
+
+
+
+- *git init:*
+
+Este comando é utilizado para criar um novo repositório no Github
+
+
+
+- *git add*:
+
+Comando para adicionar os arquivos ao índice de arquivos que serão "comittados" e "empurrados" para o repositório
+
+
+
+- *git clone*:
+
+- Neste comando será possível clonar os arquivos em repositório para ambiente local e efetuar as alterações necessárias
+
+  ​
+
+- *git commit*:
+
+  Após efetuar as alterações do arquivo/código é necessário fazer o "commit" para que o Github acate as informações de modificação e aplique as credenciais do usuário para "subir" ao repositório
+
+  ​
+
+- *git status*:
+
+  Utilizado para verificar o status dos arquivos dentro da pasta de trabalho
+
+  ​
+
+- *git push*:
+
+  Com este comando será possível "subir" os arquivos "comittados" para o repositório do Github
+
+  ​
